@@ -1,0 +1,151 @@
+<div class="container-fluid ">
+    <!--================================================Welcome to Fitbizz===================================================-->
+    <div class="row ">
+        <div class="col-12 ">
+            <div class="row hero img-fluid" style="background-image:url('assets/images/hero1.jpg'); ">
+                 <!--================================SVG Top====================================-->
+                 <div class="custom-shape-divider-top-1688108248">
+                    <svg data-name="Layer 1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path
+                            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                            class="shape-fill"></path>
+                    </svg>
+                 </div>
+                 
+                <div class="col-md-6">
+                    <div class="hero-left">
+                        <div><h1>BREATHE IT IN. <br>RUN IT OUT.</h1></div>
+                        <div class="contact-item">
+                            <form [formGroup]="contactUsForm" (ngSubmit)="addUser()">
+                                <div class="contactus-body">
+                    
+                            
+                                    <!----------------------------------------Email ID-------------------------------------------------------->
+                                    <div class="form-group ">
+                                        <input [class.is-invalid]="Email?.invalid && Email?.touched" formControlName="Email"
+                                            class="form-control " type="email" placeholder="Enter Your Email ID">
+
+                                        <!----------------------------------------Email ID Error Message--------------------------------->
+                                        <div *ngIf="Email?.invalid && Email?.touched">
+                                            <small *ngIf="Email?.errors?.['required']" class="text-danger">Email Address is
+                                                required </small>
+                                        </div>
+                                    </div>
+                                    <div class="form-group ">
+                                        <button id="contactus-btn" type="submit" value="POST data"
+                                        [disabled]="!contactUsForm.valid">Send</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+    <!--==============================================Strong About=======================================================-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class=" row strong-about">
+                <div class=" col-md-6 col-sm-12 about-btn">
+                    <div>
+                        <p>MAKING PEOPLE</p>
+                    </div>
+                    <div>
+                        <p>HEALTHIER,HAPPIER &</p>
+                    </div>
+                    <div>
+                        <p>STRONGER.</p>
+                    </div>
+                    <button id="button-discover" role="button"><span
+                            class="text">Discover More</span><span>About Fitbizz</span></button>
+
+                </div>
+
+                <div class=" col-md-6 col-sm-0 d-sm-none d-md-block
+                    strong-para">
+                    <div class="top-para">
+                        We are confident that our staff and facility can help
+                        you to
+                        reach your fitness goals.
+                        whether you're a beginner or a pro. <span>we're here to
+                            help</span>.
+                        After spending time in our facility and with our team we
+                        want our members to
+                        walk out of our doors after a workout and feel like they
+                        are
+                        a better version of themselves.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--=============================================Powered Quote======================================================-->
+    <div class="row">
+        <div class="col-12">
+            <div class="powered">
+                <div class="dis img-fluid" style="background-image:
+                    url('assets/images/hero2.jpg');">
+                    <!--================================SVG Top====================================-->
+                    <div class="custom-shape-divider-top-1688108248">
+                        <svg data-name="Layer 1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 1200 120" preserveAspectRatio="none">
+                            <path
+                                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                                class="shape-fill"></path>
+                        </svg>
+                    </div>
+                    <h5 data-text="Welcome to fitbizz" id="wel-fit">Welcome to
+                        fitbizz</h5>
+                    <h1>Powered by fitness & inspired by helping others.</h1>
+
+                     <!--================================SVG Bottom====================================-->
+                    <div class="custom-shape-divider-bottom-1688108563">
+                        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--==============================================Our Philosophy=======================================================-->
+    <div class="row">
+        <div class="col">
+            <div class="our-philosophy">
+                <div class="our">
+                    <div>
+                        <h5>WHAT TO EAT</h5>
+                    </div>
+                    <div>
+                        <h1 id="philo-title">My Philosophy</h1>
+                    </div>
+                    <div>
+                        <p>
+                            Eat meat and vegetables,nuts and seeds,some
+                            fruit,little
+                            starch and no sugar.
+                            Keep intake to levels that will support exercise but
+                            not
+                            body fats.
+                            <br>
+                            <br>
+                            I'm sure you've all heard that nutrition is the
+                            foundation for performance. In fact,nutrition
+                            is the base of the pyramid. Fitbizz will
+                            help you to achieve your fitness goals.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>

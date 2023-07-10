@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.9px;
+  color: #28a0f4;
+
+}
+
+.navbar {
+  padding: 1.5% 6%;
+  font-size: 17px;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+.navbar-toggler {
+  padding: 8px;
+  border-color: white;
+}
+
+.myactive {
+  color: #28a0f4;
+  font-size: 17.5px;
+  transition: all 0.3s ease 0s;
+}
+
+#logout{
+  margin-top: -3px;
+  margin-left: 10px;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+
+
+
+/*===================================================================================================================================*/
+/*=============================================Media Query For Medium Screen Devices=================================================*/
+/*===================================================================================================================================*/
+
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    padding: 3% 5%;
+  }
+
+  .navbar-nav {
+
+    padding-top: 1.5%;
+  }
+
+}
+
+
+/*===================================================================================================================================*/
+/*=============================================Media Query For Small Screen Devices=================================================*/
+/*===================================================================================================================================*/
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    padding: 4% 6%;
+  }
+
+}

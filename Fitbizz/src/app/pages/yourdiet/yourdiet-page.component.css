@@ -1,0 +1,190 @@
+
+.container-fluid {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+
+.your-diet {
+    background-color: #2465f279;
+    position: relative;
+    padding: 0;
+}
+
+/*--=====================================================================================================================
+--------------------------------------------------------Add  Recipes to database----------------------------------------
+=====================================================================================================================-*/
+.addfood-head {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(18, 17, 17);
+}
+
+.add-foods {
+    margin: 0;
+    padding: 0 5% 5% 5%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/*============================================SVG TOp====================================================*/
+.custom-shape-divider-top-1688108248 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1688108248 svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 56px;
+}
+
+.custom-shape-divider-top-1688108248 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.addfoodies {
+    padding: 2% 13% 7% 13%;
+    border: 2px solid #e2efe1;
+    background-color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.426);
+}
+
+.addfood-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addfood-body label {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(18, 17, 17);
+    ;
+    letter-spacing: 1px;
+}
+
+.addfood-body input {
+    line-height: 1.2;
+}
+
+
+
+.addfood-body select {
+    line-height: 1.2;
+}
+
+
+
+#add-fooditem {
+    padding: 1% 3%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2464f2;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none
+}
+
+#add-fooditem:hover {
+    background-color: #28a0f4;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+
+/*--=====================================================================================================================
+--------------------------------------------------------Your  foods table----------------------------------------
+=====================================================================================================================-*/
+
+.your-foods {
+    margin: 0;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.your-foods h1 {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(18, 17, 17);
+    ;
+    letter-spacing: 2px;
+}
+
+table,
+th,
+td {
+    padding: 1rem;
+    border-collapse: collapse;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    border: 1px solid #e2efe1;
+    background-color: rgba(255, 255, 255, 0.352);
+
+
+}
+
+.your-foods table {
+    background-color: #fff5;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 0.4rem 0.8rem #0005;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+thead {
+    width: 100%;
+    height: 10%;
+    padding: 0.8rem 1rem;
+}
+
+tbody {
+    width: 100%;
+    max-height: calc(89% - 0.8rem);
+    background-color: #fffb;
+    margin: .8rem auto;
+    overflow: auto;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(18, 17, 17);
+    ;
+}
+
+tbody tr td img {
+    cursor: pointer;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #2464f2;
+    color: white;
+}
+
+table {
+    width: 100%;
+}

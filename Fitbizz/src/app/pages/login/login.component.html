@@ -1,0 +1,84 @@
+<div class="container-fluid">
+    <div class="row login"  style="background-image:url('assets/images/loginbg.jpg');">
+        <div class="col-12">
+            <div class="row">
+
+                <!---------------------------------------Left Side Banner------------------------------------------>
+                <div class="col-md-6 left">
+                    <div class="text">
+                        <p>
+                            I want to see what happens,
+                            If i don't give up.
+                        </p>
+                    </div>
+                </div>
+
+                <!---------------------------------------Right Side Login Form------------------------------------------>
+                <div class="col-md-6 loginform">
+                    <form [formGroup]="LoginForm" (ngSubmit)="login()">
+                        <div class="login-body mt-2">
+
+                            <div class="strong mb-4">
+                                <h1><strong>Hey </strong> <span><img src="\assets\images\hello.png" alt width="30"
+                                            height="30"></span> </h1>
+                                <small>Welcome back! Please enter your details.</small>
+                            </div>
+
+                            <!----------------------------------------Email ID-------------------------------------------------------->
+                            <div class="form-group mt-1">
+                                <label for="Email" class="mb-1 ">Email:</label>
+                                <input [class.is-invalid]="Email?.invalid && Email?.touched" formControlName="Email"
+                                    class="form-control " type="email" placeholder="Enter Email ID">
+
+                                <!----------------------------------------Email ID Error Message--------------------------------->
+                                <div *ngIf="Email?.invalid && Email?.touched">
+                                    <small *ngIf="Email?.errors?.['required']" class="text-danger">Email ID is
+                                        required </small>
+                                    <small *ngIf="Email?.errors?.['email']" class="text-danger">Enter a valid Email
+                                        ID </small>
+                                </div>
+
+                            </div>
+
+                            <!----------------------------------------Password--------------------------------------------------->
+                            <div class="form-group mt-1">
+                                <label for="Password" class="mb-1 ">Password:</label>
+                                <input [class.is-invalid]="Password?.invalid && Password?.touched"
+                                    formControlName="Password" class="form-control " type="password"
+                                    placeholder="Enter Password">
+
+                                <!----------------------------------------Password Error Message--------------------------------->
+                                <div *ngIf="Password?.invalid && Password?.touched">
+                                    <small *ngIf="Password?.errors?.['required']" class="text-danger">Password is
+                                        required
+                                    </small>
+                                    <small *ngIf="Password?.errors?.['minlength']" class="text-danger">Password must be
+                                        at
+                                        least 8 characters long.</small>
+                                    <small *ngIf="Password?.errors?.['pattern']" class="text-danger">
+                                        Password should contain at least one
+                                        uppercase letter, one lowercase letter,
+                                        one digit, and one special character.
+                                    </small>
+                                </div>
+
+                            </div>
+
+                            <!-------------------------------------------Login ------------------------------------->
+                            <div class="mt-3">
+                                <button id="login-btn" type="submit" [disabled]="!LoginForm.valid">Login</button>
+                            </div>
+
+                            <div class="sign mt-3 mb-3">
+                                <span>Don't have an account? <a routerLink="pages/signup"><strong>Sign Up</strong></a></span>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>

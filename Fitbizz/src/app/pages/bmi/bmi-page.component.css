@@ -1,0 +1,279 @@
+.container-fluid {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+
+/*------------------------------------------------------------=========================================================================
+===========================================================-BMI CALCULATOR
+==================================================================================================------------------------------------*/
+
+.main {
+    padding: 5% 35%;
+    border-bottom: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.bmi {
+    padding: 15% 10%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #e2efe1;
+    background-color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.426);
+}
+/*============================================SVG TOp====================================================*/
+.custom-shape-divider-top-1688108248 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1688108248 svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 56px;
+}
+
+.custom-shape-divider-top-1688108248 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+.inputbmi-head {
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.inputbmi-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputbmi-body label {
+    color: black;
+    letter-spacing: 2.5px;
+    font-weight: 400;
+}
+
+.inputbmi-body input {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.inputbmi-body input:hover {
+    border: 1px solid #2854f4;
+    background-color: #a1d4f856;
+}
+
+#calbtn {
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 1px;
+    color: white;
+    letter-spacing: 2.5px;
+    font-weight: 400;
+    padding: 10px 15px;
+    background-color: #28a0f4;
+    border: 1px solid #28a0f4;
+}
+
+#calbtn:hover {
+    border: 1px solid #2854f4;
+    background-color: #2854f4;
+}
+
+#your-bmi {
+    color: gray;
+}
+
+.result {
+    font-weight: 400;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result h1 {
+    padding: 10px;
+    color: black;
+}
+
+.category {
+    color: rgba(0, 0, 0, 0.692);
+}
+
+
+/*------------------------------------------------------------=========================================================================
+===========================================================-Motivation
+==================================================================================================------------------------------------*/
+
+.motivation {
+    background-color: white;
+    padding: 5% 10%;
+    flex-direction: column;
+    /* border-bottom: 2px solid #7bc4f8cf; */
+}
+
+.motivation h1 {
+    font-size: 70px;
+    line-height: 100%;
+    color: black;
+    font-style: italic;
+
+}
+
+
+
+.motivation button {
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 1px;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #2464f2;
+    border: 1px solid #2464f2;
+
+}
+
+.motivation button:hover {
+    border: 1px solid #28a0f4;
+    background-color: #28a0f4;
+    color: white;
+}
+
+
+/*------------------------------------------------------------=========================================================================
+===========================================================-Exercises Section
+==================================================================================================------------------------------------*/
+
+.exercises-head {
+    padding: 5% 5% 5% 10%;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
+.exercises-head h1 {
+    font-size: 80px;
+    color: black;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    text-shadow: 16px 22px 11px gray;
+}
+
+.exercises {
+    background-color: white;
+    display: inline-block;
+    justify-content: center;
+    border: 2px solid #e2efe1;
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    overflow: hidden;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.exercises:hover {
+    box-shadow: 0 0 10px whitesmoke;
+}
+
+.exercises img {
+    width: 100%;
+    height: 220px;
+    margin-bottom: 10px;
+}
+
+.exercises .ename {
+    font-size: 1.5em;
+}
+
+.exercises p {
+    text-align: left;
+    overflow: hidden;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+table {
+    width: 70%;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------=========================================================================
+==========================================================Media query-----------------------------------------------------------------
+==================================================================================================------------------------------------*/
+
+@media screen and (max-width: 950px) {
+
+    .main {
+        padding: 10% 20%;
+    }
+
+    .bmi {
+        padding: 18% 5%;
+    }
+
+    .motivation {
+        background-color: white;
+    }
+
+    .motivation h1 {
+        font-size: 50px;
+        line-height: 100%;
+    }
+
+
+    .exercises {
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .main {
+        padding: 15% 5%;
+    }
+
+    .motivation h1 {
+        font-size: 35px;
+        line-height: 100%;
+    }
+
+    .exercises {
+        width: 92%;
+    }
+
+    .exercises-head h1 {
+        font-size: 50px;
+    }
+}

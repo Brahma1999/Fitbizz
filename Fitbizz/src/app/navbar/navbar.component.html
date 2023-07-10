@@ -1,0 +1,61 @@
+
+<div class=" container-fluid">
+  <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand" routerLink>
+          <img src="\assets\images\logo.png" alt width="30" height="30"
+            class="d-inline-block align-text-top">
+          Fitbizz
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          (click)="isMenuCollapsed = !isMenuCollapsed"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          &#9776;
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"
+          [ngbCollapse]="isMenuCollapsed">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 " >
+
+            <li class="nav-item my-2">
+              <a class="nav-link" aria-current routerLink
+                [routerLinkActive]="'myactive'" routerLink="pages/home"
+                [routerLinkActiveOptions]="{exact:true}">Home</a>
+            </li>
+
+            <li class="nav-item my-2">
+              <a class="nav-link" routerLink="pages/bmi"
+                [routerLinkActive]="'myactive'">BMI</a>
+            </li>
+
+            <li class="nav-item my-2">
+              <a class="nav-link" routerLink="pages/nutrition"
+                [routerLinkActive]="'myactive'">Nutrition</a>
+            </li>
+
+            <li class="nav-item my-2">
+              <a class="nav-link" routerLink="pages/yourdiet"
+                [routerLinkActive]="'myactive'">Your Diet</a>
+            </li>
+
+            <li class="nav-item my-2">
+              <a class="nav-link" routerLink="pages/aboutus"
+                [routerLinkActive]="'myactive'">About Us</a>
+            </li>
+
+            <li class="nav-item my-2 ">
+              <a href="" (submit)="logout()"> <img id="logout" src="assets/images/logout.png" alt=""></a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+
+</div>

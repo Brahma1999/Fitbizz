@@ -1,0 +1,164 @@
+
+<div class="container-fluid">
+    <div class="row your-diet">
+
+        <!--================================SVG Top====================================-->
+        <div class="custom-shape-divider-top-1688108248">
+            <svg data-name="Layer 1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <!----------------------------------------------Add Recipes to the database --------------------------------------------------->
+        <div class="add-foods col-sm-12 col-md-4 ">
+
+            <div class="addfood-head text-center mt-5 mb-3">
+                Didn't find the food items you want ?
+            </div>
+
+            <div class="addfoodies">
+                <form [formGroup]="addFoodForm" (ngSubmit)="createFoodItem()">
+                    <div class="addfood-body mt-2">
+
+                        <div class="form-group mt-1">
+                            <label for="Food" class="mb-1 ">Food:</label>
+                            <input
+                                [class.is-invalid]="Food?.invalid && Food?.touched"
+                                formControlName="Food" class="form-control "
+                                type="text">
+                            <small
+                                [class.d-none]="Food?.valid || Food?.untouched"
+                                class="text-danger">Food Name is required</small>
+
+                        </div>
+
+                        <div class="form-group mt-1">
+                            <label for="Measure" class="mb-1 ">Measure:</label>
+                            <input
+                                [class.is-invalid]="Measure?.invalid && Measure?.touched"
+                                formControlName="Measure"
+                                class="form-control " type="text">
+                            <small
+                                [class.d-none]="Measure?.valid || Measure?.untouched"
+                                class="text-danger">Measured quantity is
+                                required</small>
+
+                        </div>
+
+                        <div class="form-group mt-1">
+                            <label for="Grams" class="mb-1 ">Grams:</label>
+                            <input
+                                [class.is-invalid]="Grams?.invalid && Grams?.touched"
+                                formControlName="Grams" class="form-control "
+                                type="text">
+                            <small
+                                [class.d-none]="Grams?.valid || Grams?.untouched"
+                                class="text-danger">Grams is required</small>
+                        </div>
+
+                        <div class="form-group mt-1">
+                            <label for="Calories" class="mb-1 ">Calories:</label>
+                            <input
+                                [class.is-invalid]="Calories?.invalid && Calories?.touched"
+                                formControlName="Calories"
+                                class="form-control " type="text">
+                            <small
+                                [class.d-none]="Calories?.valid || Calories?.untouched"
+                                class="text-danger">Calories is required</small>
+                        </div>
+
+                        <div class="form-group mt-1">
+                            <label for="Carbs" class="mb-1 ">Carbs:</label>
+                            <input
+                                [class.is-invalid]="Carbs?.invalid && Carbs?.touched"
+                                formControlName="Carbs" class="form-control "
+                                type="text">
+                            <small
+                                [class.d-none]="Carbs?.valid || Carbs?.untouched"
+                                class="text-danger">Carbs is required</small>
+                        </div>
+
+                        <div class="form-group mt-1">
+                            <label for="Category" class="mb-1">Food Category:</label>
+                            <select
+                                [class.is-invalid]="Category?.invalid && Category?.touched"
+                                formControlName="Category"
+                                class="form-control form-select"
+                                aria-label="Default select example">
+                                <option value="Dairy products">Dairy products</option>
+                                <option value="Fats, Oils, Shortenings">Fats,
+                                    Oils, Shortenings</option>
+                                <option value="Meat, Poultry">Meat, Poultry</option>
+                                <option value="Fish, Seafood">Fish, Seafood</option>
+                                <option value="Vegetables">Vegetables </option>
+                                <option value="Fruits">Fruits</option>
+                                <option value="Seeds and Nuts">Seeds and Nuts</option>
+                                <option value="Breads, cereals, fastfood,grains">Breads,
+                                    cereals, fastfood,grains</option>
+                                <option value="Desserts, sweets">Desserts,
+                                    sweets</option>
+                                <option value="Drinks,Alcohol, Beverages">Drinks,Alcohol,
+                                    Beverages</option>
+                            </select>
+                            <small
+                                [class.d-none]="Category?.valid || Category?.untouched"
+                                class="text-danger">Category is required</small>
+                        </div>
+
+                        <div class="mt-3">
+                            <button id="add-fooditem" type="submit"
+                                [disabled]="!addFoodForm.valid"
+                                value="POST data">Add Food </button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+            <br>
+
+        </div>
+
+        <!----------------------------------------------------Your Foods Section---------------------------------------------------->
+        <div class="your-foods  col-sm-12 col-md-8">
+            <div class="col-12">
+                <h1 class="text-center">Your Foods</h1>
+                <div class=" table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Food</th>
+                                <th>Measure</th>
+                                <th>Grams</th>
+                                <th>Calories</th>
+                                <th>Carbs</th>
+                                <th>Category</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of allFoods">
+                                <td>{{item.Food}}</td>
+                                <td>{{item.Measure}}</td>
+                                <td>{{item.Grams}}</td>
+                                <td>{{item.Calories}}</td>
+                                <td>{{item.Carbs}}</td>
+                                <td>{{item.Category}}</td>
+                                <td><img src="\assets\images\delete.png"
+                                        width="20" height="20" id="
+                                    delete-btn"
+                                        class="d-inline-block align-text-top"
+                                        (click)="deleteFoodById(item)"
+                                        value="Delete"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

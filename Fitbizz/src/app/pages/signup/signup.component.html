@@ -1,0 +1,119 @@
+<div class="container-fluid">
+    <div class="row signup" style="background-image:
+    url('assets/images/signupbg.jpg');">
+        <div class="col-12">
+            <div class="row">
+                 <!--------------------------------------Left SIde SignUp Form------------------------------------------------>
+                 <div class="col-md-6 signupform">
+
+                    <form [formGroup]="signUpForm" (ngSubmit)="signUp()">
+                        <div class="signup-body mt-2">
+
+                            <div class="text-center strong mb-2">
+                                <h1><strong>Sign Up </strong><img src="\assets\images\signup.png" alt width="35" height="35"></h1>
+                            </div>
+
+                            <!-----------------------------------------------Name--------------------------------------------------->
+                            <div class="form-group mt-1">
+                                <label for="Name" class="mb-1 ">Name:</label>
+                                <input [class.is-invalid]="Name?.invalid && Name?.touched" formControlName="Name"
+                                    class="form-control " type="text" placeholder="Brahma">
+
+                                <!---------------------------------Name Error Message-------------------------------------------->
+                                <div *ngIf="Name?.invalid && Name?.touched">
+                                    <small *ngIf="Name?.errors?.['required']" class="text-danger">Username is required
+                                    </small>
+                                    <small *ngIf="Name?.errors?.['minlength']" class="text-danger">Username must be at
+                                        least 6 characters long</small>
+
+                                </div>
+                            </div>
+
+                            <!----------------------------------------Mobile Number-------------------------------------------------------->
+                            <div class="form-group mt-1">
+                                <label for="Mobile" class="mb-1 ">Mobile:</label>
+                                <input [class.is-invalid]="Mobile?.invalid && Mobile?.touched" formControlName="Mobile"
+                                    class="form-control " type="number" placeholder="+1 (123) 456-7890">
+
+                                <!---------------------------------Mobile Number Error Message------------------------------>
+                                <div *ngIf="Mobile?.invalid && Mobile?.touched">
+                                    <small *ngIf="Mobile?.errors?.['required']" class="text-danger">Mobile Number is
+                                        required </small>
+                                    <small *ngIf="Mobile?.errors?.['pattern']" class="text-danger">Enter a valid Mobile
+                                        Number </small>
+                                </div>
+                            </div>
+
+                            <!----------------------------------------Email ID-------------------------------------------------------->
+                            <div class="form-group mt-1">
+                                <label for="Email" class="mb-1 ">Email:</label>
+                                <input [class.is-invalid]="Email?.invalid && Email?.touched" formControlName="Email"
+                                    class="form-control " type="email" placeholder="xyz@gmail.com">
+
+                                <!----------------------------------------Email ID Error Message--------------------------------->
+                                <div *ngIf="Email?.invalid && Email?.touched">
+                                    <small *ngIf="Email?.errors?.['required']" class="text-danger">Email Address is
+                                        required </small>
+                                    <small *ngIf="Email?.errors?.['email']" class="text-danger">Enter a valid Email
+                                        Address </small>
+                                </div>
+
+                            </div>
+
+                            <!----------------------------------------Password-------------------------------------------------------->
+                            <div class="form-group mt-1">
+                                <label for="Password" class="mb-1 ">Password:</label>
+                                <input [class.is-invalid]="Password?.invalid && Password?.touched"
+                                    formControlName="Password" class="form-control " type="password"
+                                    placeholder="Password">
+
+                                <!----------------------------------------Password Error Message--------------------------------->
+                                <div *ngIf="Password?.invalid && Password?.touched">
+                                    <small *ngIf="Password?.errors?.['required']" class="text-danger">Password is
+                                        required
+                                    </small>
+                                    <small *ngIf="Password?.errors?.['minlength']" class="text-danger">Password must be
+                                        at
+                                        least 8 characters long.</small>
+                                    <small *ngIf="Password?.errors?.['pattern']" class="text-danger">
+                                        Password should contain at least one
+                                        uppercase letter, one lowercase letter,
+                                        one digit, and one special character.
+                                    </small>
+                                </div>
+
+                            </div>
+
+
+                            <!-------------------------------------------Sign Up------------------------------------>
+                            <div class="mt-3">
+                                <button id="signup-btn" type="submit" value="POST data"
+                                    [disabled]="!signUpForm.valid">Create
+                                    Account</button>
+                            </div>
+
+                            <div class="log mt-3">
+                                <span>Already have an account? <a routerLink=""><strong>Login</strong></a></span>
+                            </div>
+
+                        </div>
+                    </form>
+                    
+                </div>
+
+                <!----------------------------------------Right Side Banner--------------------------------------------------->
+                <div class="col-md-6 right" >
+                    <div class="text">
+                        <h1>Start your journey with us</h1>
+                        <p>Discover your potential with Fitbizz.</p>
+                        <div class=" mt-3">
+                            <img src="\assets\images\arrow.png" alt width="60" height="60" routerLink="">
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+    </div>
+</div>

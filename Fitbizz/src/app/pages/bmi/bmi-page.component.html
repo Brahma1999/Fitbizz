@@ -1,0 +1,95 @@
+<div class="container-fluid">
+
+    <!--=========================================================BMI CALCULATOR=============================================================-->
+    <div class="row ">
+        <div class="col-12">
+            <div class="main" style="background-image:url('assets/images/bm.jpg');">
+                   <!--================================SVG Top====================================-->
+                   <div class="custom-shape-divider-top-1688108248">
+                    <svg data-name="Layer 1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path
+                            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                            class="shape-fill"></path>
+                    </svg>
+                  </div>
+                <div class="bmi" >
+                 
+
+                    <div class="inputbmi-head text-center mb-5">
+                        BMI Calculator
+                    </div>
+
+                    <div class="inputbmi-body mt-2">
+                        <div class="mt-2">
+                            <label for="weight" class="mb-2 ">Enter your weight:</label>
+                            <input class="form-control mb-3" type="number"
+                                [(ngModel)]="weight"
+                                placeholder="Weight in Kg">
+
+                        </div>
+
+                        <div class="mt-3">
+                            <label for="height" class="mb-2 ">Enter your height:</label>
+                            <input class="form-control mb-3" required
+                                type="number" [(ngModel)]="height"
+                                placeholder="Height in Feet">
+                        </div>
+
+                        <div class="text-center mt-2 fs-5">
+                            <button mat-raised-button (click)="calBmi()"
+                                id="calbtn">Calculate</button>
+                        </div>
+
+                        <!---------------------------------------------RESULT OF BMI CALCULATION----------------------------------->
+
+                        <div class="result  mt-3">
+                            <h1 *ngIf="bmi" id="your-bmi">Your BMI is: {{bmi |
+                                number:'2.2-2'}}
+                            </h1>
+                            <h1 class="category"
+                                [style.background-color]="categoryColor">
+                                {{category}}
+                            </h1>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--=========================================================MOTIVATION=================================================================-->
+
+    <div class="row">
+        <div class="col-12 motivation">
+            <h1>If it doesn't challenge you,<br>
+                it doesn't change you.
+            </h1>
+            <button mat-raised-button (click)="scroll(gym)">Challenge Yourself</button>
+            
+        </div>
+    </div>
+
+    <!--===========================================================EXERCISES==============================================================-->
+    <div class="row">
+        <div class="col-12 " #gym class="exercises-head">
+            <h1 class="text-center mt-5">Exercises</h1>
+            <br>
+            <!-- Exercises  -->
+            <div *ngFor="let exercise of data" class="exercises">
+                <div class="details">
+                    <img src="{{exercise.url}}" alt srcset>
+                    <p class="ename mt-2"><strong>{{exercise.exercise |
+                            titlecase}}</strong></p>
+                    <p>{{exercise.description }}</p>
+                    <p><strong>Body Part: {{exercise.bodyPart | titlecase}}</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

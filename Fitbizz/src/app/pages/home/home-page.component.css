@@ -1,0 +1,561 @@
+.container-fluid {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.row>* {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/*===================================================================================================================================*/
+/*=========================================================Welcome to Fitbizz========================================================*/
+/*===================================================================================================================================*/
+.hero {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-left{
+    padding: 45% 35% 0 0;
+    color: black;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.hero-left div h1{
+    line-height: 100%;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.hero-left div p{
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #28a0f4;
+    line-height: 100%;
+}
+
+
+.contactus-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+}
+
+.contactus-body input {
+    line-height: 1.5;
+    border: 2px solid black;
+}
+
+.contactus-body select {
+    line-height: 1;
+}
+
+#contactus-btn {
+    border: none;
+    margin: 0 10%;
+    outline: none;
+    height: 40px;
+    width: 120%;
+    background:#2464f2;
+    color: white;
+    border-radius: 5px;
+    transition: .4s ease 0s;
+    cursor: pointer;
+}
+
+#contactus-btn:hover {
+    background: black;
+    color: white;
+} 
+
+
+
+
+/*===================================================================================================================================*/
+/*============================================================Powered================================================================*/
+/*===================================================================================================================================*/
+.powered {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: relative;
+
+}
+/*============================================SVG TOp====================================================*/
+.custom-shape-divider-top-1688108248 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1688108248 svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 56px;
+}
+
+.custom-shape-divider-top-1688108248 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.dis {
+    width: 100%;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.dis h1 {
+    width: 100%;
+    font-size: 80px;
+    line-height: 70px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+
+
+#wel-fit {
+    color: transparent;
+    position: relative;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#wel-fit::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #28a0f4;
+    -webkit-text-stroke: 0vw #28a0f4;
+    border-right: 1px solid transparent;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    70%,
+    90% {
+        width: 100%;
+    }
+}
+
+
+
+/*============================================SVG Bottom====================================================*/
+.custom-shape-divider-bottom-1688108563 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1688108563 svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 56px;
+}
+
+.custom-shape-divider-bottom-1688108563 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+/*===================================================================================================================================*/
+/*==========================================================Strong About============================================================*/
+/*===================================================================================================================================*/
+.strong-about {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    line-height: 40px;
+    color: black;
+    padding: 0 10%;
+}
+
+.about-btn {
+    width: 50%;
+    padding: 12% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    animation: slideleft 1s linear forwards;
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translate(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.ab-btn.slideleft {
+    animation-delay: 2s;
+}
+
+
+.about-btn p {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.strong-para {
+    padding: 5% 10% 5% 0;
+    width: 50%;
+    font-size: 28px;
+    color: rgb(56, 56, 56);
+    letter-spacing: 1px;
+}
+
+.top-para.slideleft {
+    animation-delay: 3s;
+}
+
+.strong-para span {
+    color: #28a0f4;
+    font-weight: bold;
+
+}
+
+
+/* Discover */
+#button-discover {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #18181a;
+    color: #18181a;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 18px 18px 17px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  #button-discover span:first-child {
+    position: relative;
+    transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 10;
+  }
+  
+  #button-discover span:last-child {
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 100;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translateY(225%) translateX(-50%);
+    height: 14px;
+    line-height: 16px;
+  }
+  
+  #button-discover:after {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transform-origin: bottom center;
+    transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    transform: skewY(9.3deg) scaleY(0);
+    z-index: 50;
+  }
+  
+  #button-discover:hover:after {
+    transform-origin: bottom center;
+    transform: skewY(9.3deg) scaleY(2);
+  }
+  
+  #button-discover:hover span:last-child {
+    transform: translateX(-50%) translateY(-100%);
+    opacity: 1;
+    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+  }
+
+
+/*===================================================================================================================================*/
+/*===============================================================Our Philosophy=====================================================*/
+/*===================================================================================================================================*/
+.our-philosophy {
+    background-color: white;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.our-philosophy div p {
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: black;
+    line-height: 100%;
+}
+
+.our {
+    width: 100%;
+    padding: 5% 12%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.our div h5 {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.762);
+    font-weight: 600;
+}
+
+#philo-title {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 60px;
+    padding: 5% 0;
+    letter-spacing: 2.5px;
+    line-height: 50px;
+    text-shadow: 16px 22px 11px gray;
+}
+
+
+/*===================================================================================================================================*/
+/*=============================================Media Query For Medium Screen Devices=================================================*/
+/*===================================================================================================================================*/
+
+@media screen and (max-width: 900px) {
+
+
+    .hero {
+        height: 100%;
+        background-attachment: fixed; 
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+
+    .hero-left{
+        padding: 35% 35% 0 0;
+    }
+
+    .hero-left div h1{
+        line-height: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .hero-left div p{
+        font-size: 20px;
+    }
+
+    .dis {
+        background: black;
+        padding: 5%;
+    }
+
+    .dis h1 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .top-para {
+        display: none;
+    }
+
+    .strong-about {
+        width: 100%;
+        margin: 0;
+        padding: 5% 10%;
+    }
+
+    .about-btn {
+        width: 100%;
+        height: 100%;
+        padding: 5% 0;
+        margin-bottom: 0;
+    }
+
+    .about-btn p {
+        font-size: 50px;
+        line-height: 100%;
+    }
+
+    .dis {
+        padding: 10%;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .dis h1 {
+        font-size: 45px;
+    }
+
+    #philo-title {
+        font-size: 50px;
+    }
+
+    .our-philosophy div p {
+        font-size: 18px;
+        line-height: 100%;
+    }
+
+    .hero-right{
+        display: none;
+    }
+
+    .hero-left{
+        padding: 30% 45% 10% 10%;
+    }
+    .hero-left div h1{
+        font-size: 50px;
+    }
+
+    .hero-left div p{
+        font-size: 17px;
+    }
+
+
+}
+
+
+/*===================================================================================================================================*/
+/*=============================================Media Query For Small Screen Devices=================================================*/
+/*===================================================================================================================================*/
+
+@media screen and (max-width: 600px) {
+
+    
+   
+
+    .welcome {
+        font-size: 50px;
+        line-height: 100%;
+
+    }
+
+    .strong-about {
+        padding: 2% 5%;
+
+    }
+
+    .strong-about div p {
+        font-size: 30px;
+    }
+
+    .dis h1 {
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 1.5px;
+    }
+
+    .top-para {
+        display: none;
+    }
+
+    .about-btn {
+        width: 90%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .about-btn p {
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+    .our-philosophy {
+        padding: 5%;
+    }
+
+    .our {
+        padding: 5%;
+    }
+
+    #philo-title {
+        padding: 3% 0;
+        font-size: 30px;
+        letter-spacing: 1.5px;
+
+    }
+
+    .our-philosophy div p {
+        font-size: 15px;
+        line-height: 100%;
+        font-weight: 350;
+    }
+
+
+    .hero-left{
+        padding: 25% 35% 10% 10%;
+    }
+
+    .hero-left div h1{
+        font-size: 30px;
+    }
+
+    .hero-left div p{
+        font-size: 10px;
+    }
+
+
+}

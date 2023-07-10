@@ -1,0 +1,170 @@
+<div class="container-fluid">
+
+    <!----------------------------------About Us----------------------------------------------------->
+    <div class="row">
+        <div class="col-12">
+            <div class="aboutUs ">
+                <h1>About Us</h1>
+                <p>Hello ! Fitbizz is my project.</p>
+                <p>I decided to focus on tracking BMI data and diet plans
+                    because i have noticed that
+                    people's eating habits in modern days lack specific
+                    categories of food  with mostly only fat,
+                    starch , and sugar for a meal.
+                </p>
+                <p>
+                    Busy schedules also lead to people eating on the run,which
+                    results in poor
+                    nutritional intake.
+                </p>
+                <p>
+                    I hope Fitbizz will help users achieve a healthier lifestyle
+                    by monitoring BMI results
+                    and tracking daily food intake.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------Features Provided-------------------------------------------->
+    <div class="row">
+        <div class="col-12">
+            <div class=" row features">
+                <div class="ag-courses_box">
+    
+                    <div class="ag-courses_item">
+                      <a  class="ag-courses-item_link">
+                        <div class="ag-courses-item_bg"></div>
+                
+                        <div class="ag-courses-item_title">
+                          Feature 1: Calculate BMI
+                        </div>
+                
+                        <div class="ag-courses-item_date-box">
+                          <span class="ag-courses-item_date">
+                           User can calculate BMI by providing weight and height.
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                
+                    <div class="ag-courses_item">
+                      <a  class="ag-courses-item_link">
+                        <div class="ag-courses-item_bg"></div>
+                
+                        <div class="ag-courses-item_title">
+                          Feature 2: Diet Plan & Healthy Recipes
+                        </div>
+                
+                        <div class="ag-courses-item_date-box">
+                          <span class="ag-courses-item_date">
+                            User can view a diet plan and some healthy and tasty recipes.
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                
+                    <div class="ag-courses_item">
+                      <a  class="ag-courses-item_link">
+                        <div class="ag-courses-item_bg"></div>
+                
+                        <div class="ag-courses-item_title">
+                        Feature 3: Make Your Own Diet 
+                        </div>
+                
+                        <div class="ag-courses-item_date-box">
+                          <span class="ag-courses-item_date">
+                           User can now add their fav food items and can keep record of nutrients.
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------Contact Us-------------------------------------------------->
+    <div class="row">
+        <div class="col-md-6">
+            <div class="my-contact">
+                <div><h1>FEEL FREE TO REACH US ANYTIME</h1></div>
+                <div class="contact-item">
+                    <div><img src="\assets\images\phone-call.png" alt width="20" height="20"><span> <strong> +91- 8240063447</strong> </span></div>
+                    <div ><img src="\assets\images\mail.png" alt width="20" height="20"><span> <strong> brahmanp13@gmail.com</strong></span></div>
+                    <div ><img src="\assets\images\pin.png" alt width="20" height="20"><span> <strong> Kolkata, West Bengal</strong></span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="contactUs">
+                <form [formGroup]="contactUsForm" (ngSubmit)="addUser()">
+                    <div class="contactus-body">
+        
+                        <!-----------------------------------------------Name--------------------------------------------------->
+                        <div class="form-group mt-3">
+                            <input [class.is-invalid]="Name?.invalid && Name?.touched" formControlName="Name"
+                                class="form-control " type="text" placeholder="Your Name">
+
+                            <!---------------------------------Name Error Message-------------------------------------------->
+                            <div *ngIf="Name?.invalid && Name?.touched">
+                                <small *ngIf="Name?.errors?.['required']" class="text-danger">Username is required
+                                </small>
+                                <small *ngIf="Name?.errors?.['minlength']" class="text-danger">Username must be at
+                                    least 6 characters long</small>
+
+                            </div>
+                        </div>
+
+                        <!----------------------------------------Mobile Number-------------------------------------------------------->
+                        <div class="form-group mt-3">
+                            <input [class.is-invalid]="Mobile?.invalid && Mobile?.touched" formControlName="Mobile"
+                                class="form-control " type="number" placeholder="Your Contact">
+
+                            <!---------------------------------Mobile Number Error Message------------------------------>
+                            <div *ngIf="Mobile?.invalid && Mobile?.touched">
+                                <small *ngIf="Mobile?.errors?.['required']" class="text-danger">Mobile Number is
+                                    required </small>
+                                <small *ngIf="Mobile?.errors?.['pattern']" class="text-danger">Enter a valid Mobile
+                                    Number </small>
+                            </div>
+                        </div>
+
+                        <!----------------------------------------Email ID-------------------------------------------------------->
+                        <div class="form-group mt-3">
+                            
+                            <input [class.is-invalid]="Email?.invalid && Email?.touched" formControlName="Email"
+                                class="form-control " type="email" placeholder="Email ">
+
+                            <!----------------------------------------Email ID Error Message--------------------------------->
+                            <div *ngIf="Email?.invalid && Email?.touched">
+                                <small *ngIf="Email?.errors?.['required']" class="text-danger">Email Address is
+                                    required </small>
+                                <small *ngIf="Email?.errors?.['email']" class="text-danger">Enter a valid Email
+                                    Address </small>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group mt-3">
+                            <textarea formControlName="Message" class="form-control " type="text" rows="4" placeholder="Message"></textarea>
+
+                        </div>
+
+                        <!-------------------------------------------Message------------------------------------>
+                        <div class="mt-3">
+                            <button id="contactus-btn" type="submit" value="POST data"
+                                [disabled]="!contactUsForm.valid">Send</button>
+                        </div>
+
+                
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</div>
