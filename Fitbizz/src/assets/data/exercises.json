@@ -1,0 +1,122 @@
+[
+  {
+    "exercise": "Bench Press",
+    "url":"https://assets.gqindia.com/photos/5e54b97ee1cde5000859f2d6/16:9/pass/This%20is%20how%20you%20should%20actually%20bench-press.jpg",
+    "description": "The bench press is an upper body strength training exercise that consists of pressing a weight upwards from a supine position. The exercise works the pectoralis major as well as supporting chest, arm, and shoulder muscles such as the anterior deltoids, serratus anterior, coracobrachialis.",
+    "bodyPart": "Chest"
+  },
+  {
+    "exercise": "Pushups",
+    "url":"https://cimg3.ibsrv.net/cimg/www.fitday.com/693x350_85-1/503/26girlpush-108503.jpg",
+    "description": "A push-up is a common calisthenics exercise performed in a prone position by raising and lowering the body using the arms. Push-ups exercise the pectoral muscles, triceps, and anterior deltoids, with ancillary benefits to the rest of the deltoids, serratus anterior, coracobrachialis and the midsection as a whole.",
+    "bodyPart": "Chest"
+  },
+  {
+    "exercise": "Calf Raise",
+    "url":"https://www.bodybuilding.com/images/2018/september/calf-raise-death-set-this-is-how-to-end-leg-day-header-960x540.jpg",
+    "description": "Calf raises are a method of exercising the gastrocnemius, tibialis posterior and soleus muscles of the lower leg.",
+    "bodyPart": "Legs"
+  },
+  {
+    "exercise": "Leg Extension",
+    "url":"https://hips.hearstapps.com/hmg-prod/images/young-adult-man-doing-leg-extension-exercise-in-gym-royalty-free-image-1678280881.jpg?crop=1xw:0.84276xh;center,top&resize=1200:*",
+    "description": "The leg extension is a resistance weight training exercise that targets the quadriceps muscle in the legs. The exercise consists of bending the leg at the knee and extending the legs, then lowering them back to the original position.",
+    "bodyPart": "legs"
+  },
+  {
+    "exercise": "Leg Curl",
+    "url":"https://www.bodybuilding.com/images/2017/july/the-other-curl-get-the-most-out-of-your-hamstring-training-header-960x540.jpg",
+    "description": "The leg curl, also known as the hamstring curl, is an isolation exercise that targets the hamstring muscles. The exercise involves flexing the lower leg against resistance towards the buttocks.",
+    "bodyPart": "legs"
+  },
+  {
+    "exercise": "Barbell Deadlift",
+    "url":"https://breakingmuscle.com/wp-content/uploads/2023/03/Shutterstock_1615301587.jpg",
+    "description": "The deadlift is a weight training exercise in which a loaded barbell or bar is lifted off the ground to the level of the hips, then lowered to the ground. It is one of the three powerlifting exercises, along with the squat and bench press.",
+    "bodyPart": "Legs"
+  },
+  {
+    "exercise": "Barbell Squat",
+    "url":"https://parade.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk0MjYxNzc2MTM1NjI4NDY1/how-to-do-barbell-squat.jpg",
+    "description": "The squat is a compound, full body exercise that trains primarily the muscles of the thighs, hips and buttocks, quadriceps femoris muscle, hamstrings, as well as strengthening the bones, ligaments and insertion of the tendons throughout the lower body.",
+    "bodyPart": "Legs"
+  },
+  {
+    "exercise": "Dumbbell Hammer curl",
+    "url":"https://www.trainheroic.com/wp-content/uploads/2023/02/AdobeStock_417412809-TH-jpg.webp",
+    "description": "Using a dumbbell, a curling motion is executed, where a weight is lifted up until the forearms are vertical ith the elbows and upper arm remaining close to the body.",
+    "bodyPart": "arm"
+  },
+  {
+    "exercise": "preacher curl",
+    "url":"https://blog.squatwolf.com/wp-content/uploads/2019/05/pc.jpg",
+    "description": "Using a bar bell, position your arms on a bench pad and slowly lift the weigth to your chest. The target muscle of this exercise is the brachialis muscle, which is part of your lower biceps.",
+    "bodyPart": "arm"
+  },
+  {
+    "exercise": "cable pushdown",
+    "url":"https://i.ytimg.com/vi/-xa-6cQaZKY/maxresdefault.jpg",
+    "description": "A cable pushdown is a strength training exercise used for strengthening the triceps muscles in the back of the arm. The exercise is completed by pushing a cable downward against resistance, typically provided by a set of adjustable weights. This exercise is an example of the primary function of the triceps, extension of the elbow joint.",
+    "bodyPart": "arm"
+  },
+  {
+    "exercise": "barbell pullover",
+    "url":"https://www.garage-gyms.com/wp-content/uploads/2016/04/bent-arm-barbell-pullover-bottom.jpg",
+    "description": "Barbell pullovers can be made to affect either the chest or the back depending on how wide the grip is and the position of the shoulders. A research done on the pullover movement using a barbell suggested more effect on the Pectoralis major muscle as compared to the Latisimus dorsi.",
+    "bodyPart": "back"
+  },
+  {
+    "exercise": "lat pull down",
+    "url":"https://image.boxrox.com/2021/10/lat-pulldown.webp",
+    "description": "The pulldown exercise is a strength training exercise designed to develop the latissimus dorsi muscle. It performs the functions of downward rotation and depression of the scapulae combined with adduction and extension of the shoulder joint. The cable lat pulldown is done where the handle is moved via a cable pulley, as opposed to doing pulldowns on a leverage machine.",
+    "bodyPart": "back"
+  },
+  {
+    "exercise": "seated row",
+    "url":"https://www.g4physio.co.uk/wp-content/uploads/2016/11/Seated-Row-2.jpg",
+    "description": "In strength training, rowing is an exercise where the purpose is to strengthen the muscles that draw the rower's arms toward the body as well as those that retract the scapulae and those that support the spine. When done on a rowing machine, rowing also exercises muscles that extend and support the legs (quadriceps and thigh muscles).",
+    "bodyPart": "back"
+  },
+  {
+    "exercise": "shoulder press",
+    "url":"https://staticg.sportskeeda.com/editor/2022/04/162d9-16492289585802-1920.jpg?w=840",
+    "description": "The shoulder press is a weight training exercise, typically performed while standing, in which a weight is pressed straight upwards from racking position until the arms are locked out overhead.",
+    "bodyPart": "shoulder"
+  },
+  {
+    "exercise": "barbell row",
+    "url":"https://thefitnessmaverick.com/wp-content/uploads/2020/10/F265CF38-5010-4DBF-BE3A-68C68A2A7E02_1_201_a-e1602589179813.jpeg",
+    "description": "A barbell row is a weight training exercise that targets a variety of back muscles. Which ones are targeted varies on form. The bent over row is often used for both bodybuilding and powerlifting. It is a good exercise for increasing strength and size.",
+    "bodyPart": "back"
+  },
+  {
+    "exercise": "dumbbell press",
+    "url":"https://hortonbarbell.com/wp-content/uploads/2022/12/Dumbbell-Bench-Press-Alternatives.png",
+    "description": "The dumbbell press, overhead press or shoulder press is a weight training exercise, typically performed while standing, in which a weight is pressed straight upwards from racking position until the arms are locked out overhead.",
+    "bodyPart": "shoulder"
+  },
+  {
+    "exercise": "situp",
+    "url":"https://hips.hearstapps.com/hmg-prod/images/shot-of-a-young-man-completing-crunches-royalty-free-image-1678721163.jpg?crop=1xw:0.85959xh;center,top&resize=1200:*",
+    "description": "The sit-up is an abdominal endurance training exercise commonly performed to strengthen and tone the abdominal muscles. A sit-up It begins with lying with the back on the floor, typically with the arms across the chest or hands behind the head and the knees bent in an attempt to reduce stress on the back muscles and spine.",
+    "bodyPart": "abs"
+  },
+  {
+    "exercise": "twist abs",
+    "url":"https://cdn.mos.cms.futurecdn.net/RH4zqVNzNDojxyDNX9Le4N.jpg",
+    "description": "A variation of situps where the individual twists their torso while performing a standard sit-up",
+    "bodyPart": "abs"
+  },
+  {
+    "exercise": "incline situp",
+    "url":"https://cdn.shopify.com/s/files/1/0514/5598/3804/articles/reasons_why_your_lower_back_hurts_after_using_a_sit-up_bench_600x.jpg?v=1672904110",
+    "description": "A variation of situps where the individual begins with their body below their legs. This is typically done on a decline bench that anchors the feet in place.",
+    "bodyPart": "abs"
+  },
+  {
+    "exercise": "dips",
+    "url":"https://www.muscleandfitness.com/wp-content/uploads/2019/06/man-shoulder-dips-1109.jpg?w=1109&quality=86&strip=all",
+    "description": "The dip is an exercise used in strength training. Narrow, shoulder-width dips primarily train the triceps, with major synergists being the anterior deltoid, the pectoralis muscles, and the rhomboid muscles of the back",
+    "bodyPart": "chest"
+  }
+]

@@ -1,0 +1,414 @@
+[{
+  "Food": "Buttermilk",
+  "Measure": "1 cup",
+  "Grams": "246",
+  "Calories": "127",
+  "Carbs": "13",
+  "Category": "Dairy products"
+},{
+  "Food": "Ice cream",
+  "Measure": "1 cup",
+  "Grams": "188",
+  "Calories": "300",
+  "Carbs": "29",
+  "Category": "Dairy products"
+},{
+  "Food": "Lima",
+  "Measure": "1 cup",
+  "Grams": "160",
+  "Calories": "140",
+  "Carbs": "24",
+  "Category": "Vegetables A-E"
+},{
+  "Food": "Beetroots",
+  "Measure": "1 cup",
+  "Grams": "165",
+  "Calories": "1",
+  "Carbs": "0.80",
+  "Category": "Vegetables A-E"
+},{
+  "Food": "Corn",
+  "Measure": "1 ear",
+  "Grams": "100",
+  "Calories": "92",
+  "Carbs": "21",
+  "Category": "Vegetables A-E"
+},{
+  "Food": "Lentils",
+  "Measure": "1 cup",
+  "Grams": "200",
+  "Calories": "212",
+  "Carbs": "38",
+  "Category": "Vegetables F-P"
+},{
+  "Food": "Onions",
+  "Measure": "1",
+  "Grams": "210",
+  "Calories": "80",
+  "Carbs": "18",
+  "Category": "Vegetables F-P"
+},{
+  "Food": "Peas",
+  "Measure": "1 cup",
+  "Grams": "100",
+  "Calories": "66",
+  "Carbs": "13",
+  "Category": "Vegetables F-P"
+},{
+  "Food": "Sweet potatoes",
+  "Measure": "1 med.",
+  "Grams": "110",
+  "Calories": "155",
+  "Carbs": "36",
+  "Category": "Vegetables R-Z"
+},{
+  "Food": "Apples, raw",
+  "Measure": "1 med",
+  "Grams": "130",
+  "Calories": "70",
+  "Carbs": "18",
+  "Category": "Fruits A-F"
+},{
+  "Food": "Apricots",
+  "Measure": "1 cup",
+  "Grams": "250",
+  "Calories": "220",
+  "Carbs": "57",
+  "Category": "Fruits A-F"
+},{
+  "Food": "Banana",
+  "Measure": "1 med.",
+  "Grams": "150",
+  "Calories": "85",
+  "Carbs": "23",
+  "Category": "Fruits A-F"
+},{
+  "Food": "Blueberries",
+  "Measure": "1 cup",
+  "Grams": "250",
+  "Calories": "245",
+  "Carbs": "65",
+  "Category": "Fruits A-F"
+},{
+  "Food": "Fresh, raw",
+  "Measure": "1 cup",
+  "Grams": "114",
+  "Calories": "65",
+  "Carbs": "15",
+  "Category": "Fruits A-F"
+},{
+  "Food": "Dates",
+  "Measure": "1 cup",
+  "Grams": "178",
+  "Calories": "505",
+  "Carbs": "134",
+  "Category": "Fruits A-F"
+},{
+  "Food": "Fruit cocktail, canned",
+  "Measure": "1 cup",
+  "Grams": "256",
+  "Calories": "195",
+  "Carbs": "50",
+  "Category": "Fruits A-F"
+},{
+  "Food": "Grapes",
+  "Measure": "1 cup",
+  "Grams": "153",
+  "Calories": "70",
+  "Carbs": "16",
+  "Category": "Fruits G-P"
+},{
+  "Food": "Grape juice",
+  "Measure": "1 cup",
+  "Grams": "250",
+  "Calories": "160",
+  "Carbs": "42",
+  "Category": "Fruits G-P"
+},{
+  "Food": "Lemon juice",
+  "Measure": "1/2 cup",
+  "Grams": "125",
+  "Calories": "30",
+  "Carbs": "10",
+  "Category": "Fruits G-P"
+},{
+  "Food": "Raw, diced",
+  "Measure": "1 cup",
+  "Grams": "140",
+  "Calories": "75",
+  "Carbs": "19",
+  "Category": "Fruits G-P"
+},{
+  "Food": "Raw",
+  "Measure": "1 cup",
+  "Grams": "149",
+  "Calories": "54",
+  "Carbs": "12",
+  "Category": "Fruits R-Z"
+},{
+  "Food": "Watermelon",
+  "Measure": "1 wedge",
+  "Grams": "925",
+  "Calories": "120",
+  "Carbs": "29",
+  "Category": "Fruits R-Z"
+},{
+  "Food": "Biscuits",
+  "Measure": "1",
+  "Grams": "38",
+  "Calories": "130",
+  "Carbs": "18",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "Whole-wheat",
+  "Measure": "1 slice",
+  "Grams": "23",
+  "Calories": "55",
+  "Carbs": "11",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "Cornflakes",
+  "Measure": "1 cup",
+  "Grams": "25",
+  "Calories": "110",
+  "Carbs": "25",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "Corn grits cooked",
+  "Measure": "1 cup",
+  "Grams": "242",
+  "Calories": "120",
+  "Carbs": "27",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "Wheat (all purpose)",
+  "Measure": "1 cup",
+  "Grams": "110",
+  "Calories": "400",
+  "Carbs": "84",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "Noodles",
+  "Measure": "1 cup",
+  "Grams": "160",
+  "Calories": "200",
+  "Carbs": "37",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "Oatmeal",
+  "Measure": "1 cup",
+  "Grams": "236",
+  "Calories": "150",
+  "Carbs": "26",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "Rice",
+  "Measure": "1 cup",
+  "Grams": "208",
+  "Calories": "748",
+  "Carbs": "154",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "White",
+  "Measure": "1 cup",
+  "Grams": "191",
+  "Calories": "692",
+  "Carbs": "150",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "Rolls",
+  "Measure": "1 large",
+  "Grams": "50",
+  "Calories": "411",
+  "Carbs": "23",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "whole-wheat",
+  "Measure": "1",
+  "Grams": "40",
+  "Calories": "102",
+  "Carbs": "20",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "with tomatoes and cheese",
+  "Measure": "1 cup",
+  "Grams": "250",
+  "Calories": "210",
+  "Carbs": "36",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "Spanish rice",
+  "Measure": "1 cup",
+  "Grams": "250",
+  "Calories": "217",
+  "Carbs": "40",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "Wheat-germ cereal toasted",
+  "Measure": "1 cup",
+  "Grams": "65",
+  "Calories": "260",
+  "Carbs": "36",
+  "Category": "Breads, cereals, fastfood,grains"
+},{
+  "Food": "Apple betty",
+  "Measure": "1 serving",
+  "Grams": "100",
+  "Calories": "150",
+  "Carbs": "29",
+  "Category": "Desserts, sweets"
+},{
+  "Food": "Chocolate creams",
+  "Measure": "2",
+  "Grams": "30",
+  "Calories": "130",
+  "Carbs": "24",
+  "Category": "Desserts, sweets"
+},{
+  "Food": "Fudge",
+  "Measure": "2 pieces",
+  "Grams": "90",
+  "Calories": "370",
+  "Carbs": "80",
+  "Category": "Desserts, sweets"
+},{
+  "Food": "Hard candies",
+  "Measure": "1 oz.",
+  "Grams": "28",
+  "Calories": "90",
+  "Carbs": "28",
+  "Category": "Desserts, sweets"
+},{
+  "Food": "Milk chocolate",
+  "Measure": "2-oz. bar",
+  "Grams": "56",
+  "Calories": "290",
+  "Carbs": "44",
+  "Category": "Desserts, sweets"
+},{
+  "Food": "Doughnuts",
+  "Measure": "1",
+  "Grams": "33",
+  "Calories": "135",
+  "Carbs": "17",
+  "Category": "Desserts, sweets"
+},{
+  "Food": "Honey",
+  "Measure": "2 T.",
+  "Grams": "42",
+  "Calories": "120",
+  "Carbs": "30",
+  "Category": "Jams, Jellies"
+},{
+  "Food": "preserves",
+  "Measure": "1 T.",
+  "Grams": "20",
+  "Calories": "55",
+  "Carbs": "14",
+  "Category": "Jams, Jellies"
+},{
+  "Food": "Jellies",
+  "Measure": "1 T.",
+  "Grams": "20",
+  "Calories": "50",
+  "Carbs": "13",
+  "Category": "Jams, Jellies"
+},{
+  "Food": "Cane Syrup",
+  "Measure": "1 T.",
+  "Grams": "20",
+  "Calories": "50",
+  "Carbs": "13",
+  "Category": "Jams, Jellies"
+},{
+  "Food": "Cherry Pie",
+  "Measure": "1 slice",
+  "Grams": "135",
+  "Calories": "340",
+  "Carbs": "55",
+  "Category": "Desserts, sweets"
+},{
+  "Food": "Custard",
+  "Measure": "1 slice",
+  "Grams": "130",
+  "Calories": "265",
+  "Carbs": "34",
+  "Category": "Desserts, sweets"
+},{
+  "Food": "Mince",
+  "Measure": "1 slice",
+  "Grams": "135",
+  "Calories": "340",
+  "Carbs": "62",
+  "Category": "Desserts, sweets"
+},{
+  "Food": "Pumpkin Pie",
+  "Measure": "1 slice",
+  "Grams": "130",
+  "Calories": "265",
+  "Carbs": "34",
+  "Category": "Desserts, sweets"
+},{
+  "Food": "Puddings Sugar",
+  "Measure": "1 cup",
+  "Grams": "200",
+  "Calories": "770",
+  "Carbs": "199",
+  "Category": "Desserts, sweets"
+},{
+  "Food": "Almonds",
+  "Measure": "1/2 cup",
+  "Grams": "70",
+  "Calories": "425",
+  "Carbs": "13",
+  "Category": "Seeds and Nuts"
+},{
+  "Food": "Cashews",
+  "Measure": "1/2 cup",
+  "Grams": "70",
+  "Calories": "392",
+  "Carbs": "20",
+  "Category": "Seeds and Nuts"
+},{
+  "Food": "Peanut butter",
+  "Measure": "1/3 cup",
+  "Grams": "50",
+  "Calories": "300",
+  "Carbs": "9",
+  "Category": "Seeds and Nuts"
+},{
+  "Food": "Peanuts",
+  "Measure": "1/3 cup",
+  "Grams": "50",
+  "Calories": "290",
+  "Carbs": "9",
+  "Category": "Seeds and Nuts"
+},{
+  "Food": "Walnuts",
+  "Measure": "1/2 cup",
+  "Grams": "50",
+  "Calories": "325",
+  "Carbs": "8",
+  "Category": "Seeds and Nuts"
+},{
+  "Food": "Wines",
+  "Measure": "1/2 cup",
+  "Grams": "120",
+  "Calories": "164",
+  "Carbs": "9",
+  "Category": "Drinks,Alcohol, Beverages"
+},{
+  "Food": "Cola drinks",
+  "Measure": "12 oz.",
+  "Grams": "346",
+  "Calories": "137",
+  "Carbs": "38",
+  "Category": "Drinks,Alcohol, Beverages"
+},{
+  "Food": "Fruit-flavored soda",
+  "Measure": "12 oz.",
+  "Grams": "346",
+  "Calories": "161",
+  "Carbs": "42",
+  "Category": "Drinks,Alcohol, Beverages"
+}]

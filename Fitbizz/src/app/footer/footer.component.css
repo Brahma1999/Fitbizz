@@ -1,0 +1,86 @@
+.container-fluid {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 50%;
+    padding: 3% 10%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.head {
+    font-size: 25px;
+    color: gray;
+    cursor: pointer;
+}
+
+.head:hover {
+    color: #28a0f4;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+    cursor: pointer;
+    color: gray;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.social-media a:hover {
+    color: #28a0f4;
+}
+
+.copy-right {
+    color: gray;
+}
+
+
+
+
+/*===================================================================================================================================*/
+/*=============================================Media Query For Medium Screen Devices=================================================*/
+/*===================================================================================================================================*/
+
+@media screen and (max-width: 900px) {
+    .footer {
+        width: 70%;
+    }
+}
+
+/*===================================================================================================================================*/
+/*=============================================Media Query For Small Screen Devices=================================================*/
+/*===================================================================================================================================*/
+@media screen and (max-width: 600px) {
+    .footer {
+        width: 100%;
+    }
+
+    .social-media a {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+}
