@@ -1,0 +1,52 @@
+[
+    {
+        "meal":"Breakfast",
+        "monday":"1 bowl of poha or daliya with vegetable",
+        "tuesday":"Oats porridge and fruits",
+        "wednesday":"2 brown rice idlis with sambar",
+        "thursday":"2 brown toasts with 1 egg white",
+        "friday":"1 besan chilla with corriander chutney",
+        "saturday":"1 small bowl low-fat paneer bhurji with roti",
+        "sunday":"Vegetable corn Sandwich"
+    },
+    {
+        "meal":"Snack",
+        "monday":"Mixed nuts(approx 25g)",
+        "tuesday":"1 bowl of roasted makhana",
+        "wednesday":"1 apple",
+        "thursday":"1 bowl of carrot and cucumber sticks",
+        "friday":"1 bowl of cut fruits and milk",
+        "saturday":"2 bananas",
+        "sunday":"mixed fruit salad"
+    },
+    {
+        "meal":"Lunch",
+        "monday":"1-2 chapatis,1 small bowl of dal,1 small bowl of sabzi,1 bowl of curd",
+        "tuesday":"1 chapati,1 small bowl of methi dal,half small bowl of rixe,1 bowl of vegetable salad",
+        "wednesday":"1 bajra roti,1 small bowl of dal,1 bowl of vegetable salad",
+        "thursday":"1 chapati, 1 small bowl of chole,small bowl of rice and 1 bowl of raita",
+        "friday":"1-2 chapatis,1 small bowl of dal,1 small bowl of sabzi,1bowl of curd",
+        "saturday":"1 bajra roti,1 small bowl of dal,1 bowl of vegetable salad",
+        "sunday":"1-2 chapatis,1 small bowl of dal,1 small bowl of sabzi,1 bowl of curd"
+    },
+    {
+        "meal":"Snack",
+        "monday":"1 bowl of cut fruits ",
+        "tuesday":"1 glass of fruit guice",
+        "wednesday":"1 bowl of soup",
+        "thursday":"1 bowl of sprouts salad",
+        "friday":"10 soaked almonds",
+        "saturday":"1 glass of fruit guice",
+        "sunday":"1 glass of fruit guice"
+    },
+    {
+        "meal":"Dinner",
+        "monday":"1-2 chapatis,1 small bowl of dal ad 1 small bowl of sabzi(palak paneer)",
+        "tuesday":"1-2 chapatis,1 small bowl of dal and 1 small bowl of sabzi(bottle gourd)",
+        "wednesday":"Mixed vegetable salad topped with nuts and grilled low fat paneer",
+        "thursday":"1-2 chapatis, 1 small bowl of dal and 1 small bowl of ssabzi(stuffed bitter gourd)",
+        "friday":"1 bowl of barnyad millet pulao with 1 small bowl of mixed vegetable curry",
+        "saturday":"1-2 chapatis,1 small bowl of dal ad 1 small bowl of sabzi(paneer)",
+        "sunday":"Mixed vegetable salad topped with nuts and grilled low fat paneer"
+    }
+]

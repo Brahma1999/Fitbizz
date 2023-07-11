@@ -1,0 +1,52 @@
+[
+    {
+        "meal":"Breakfast",
+        "monday":"Ham & Cheese omelet ,2 eggs",
+        "tuesday":"Waffles(1) with  butter(1 Tbs) & syrup(2 Tbs)",
+        "wednesday":"Protein Smoothies with boiled eggs",
+        "thursday":"2 bread slices and 3 eggs ",
+        "friday":"Oatmeal(1/2c) with nut butter , Fruit Juice(1/2c)",
+        "saturday":"3 hard boiled Eggs and fruits ",
+        "sunday":"Scrambled eggs & Fruit juice"
+    },
+    {
+        "meal":"Snack",
+        "monday":"High Calorie Shake (Coffee)",
+        "tuesday":"High Calorie Shake (Cherry Pie)",
+        "wednesday":"High Calorie Shake (Butterscotch)",
+        "thursday":"String cheese(1 stick) Crackers(5)",
+        "friday":"Greek Yogurt(1 serving container),Berries",
+        "saturday":"High Calorie Shake (Strawberry Banana)",
+        "sunday":"High Calorie Shake (Avocado)"
+    },
+    {
+        "meal":"Lunch",
+        "monday":"Barbeque(2Tbs) chicken,1 cup rice, Potato veggy Salad(1/2 c) ",
+        "tuesday":"Ham salad sandwich (1/2c on 2 pc bread),",
+        "wednesday":"Cheeseburger with bun(1 sand) Fries(1small serving),chocolate milk shake",
+        "thursday":"Tuna salad sandwich(1/2c on 2pc bread),baby carrots,whole milk",
+        "friday":"Chicken & cheese pita(1pita) with avocado , cherry tomatoes whole milk",
+        "saturday":"Chicken stir fry with veggies(1/2 c), Pineapple(1/2c), salad",
+        "sunday":"Tpmato soup(1cup),Chicken grilled sandwich"
+    },
+    {
+        "meal":"Snack",
+        "monday":"Greek yogurt parfalt",
+        "tuesday":"Cottage cheese, Canned fruit",
+        "wednesday":"Banana(1) with peanut butter (2 Tbs)",
+        "thursday":"String cheese(1 stick ), Crackers(5)",
+        "friday":"1 besan chilla with corriander chutney",
+        "saturday":"hard boiled egg(1)",
+        "sunday":"Banana(1) with peanut butter (2 Tbs)"
+    },
+    {
+        "meal":"Dinner",
+        "monday":"4 roti with chicken curry, salad",
+        "tuesday":"4 roti panneer curry, salad",
+        "wednesday":"4 roti and chicken salad",
+        "thursday":"4 roti and chicken and dal",
+        "friday":"chicken sandwich with salads",
+        "saturday":"4 roti with chicken curry, salad",
+        "sunday":"4 roti with panneercurry, salad"
+    }
+]
