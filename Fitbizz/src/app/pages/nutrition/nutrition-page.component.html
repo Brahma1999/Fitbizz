@@ -1,0 +1,162 @@
+<div class="container-fluid">
+
+    <!--==============================================Nutrition Heading======================================================-->
+    <div class="row">
+        <div class="col-12 hero"
+            style="background-image: url('assets/images/nutris.jpg');">
+            <div class="custom-shape-divider-top-1688108248">
+                <svg data-name="Layer 1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="nutrition">
+                <h1>NUTRITION</h1>
+                <p class="pt-4">Diet is the essential key to all successful
+                    healing. Without a proper balanced diet, the effectiveness
+                    of herbal treatment is very limited.</p>
+            </div>
+
+            <!--=============================================Options=======================================================-->
+
+            <div class="row">
+                <div class="options">
+                    <button class="col-4 opt" (click)="disRecipes()">
+                        Healthy Recipes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--==============================================Recipes=======================================================-->
+    <div class="row recipes " *ngIf="var_recipes">
+        <div class="col-12">
+            <h1 class="text-center mb-5">Healthy Recipes</h1>
+            <div *ngFor="let recipe of recipes" class="recipes-detail">
+                <div class="details">
+                    <img src="{{recipe.image}}" alt srcset>
+                    <p>{{recipe.head| uppercase}}</p>
+                    <p class="ename mt-2"><strong>{{recipe.title | titlecase}}</strong></p>
+                    <p>Maker: {{recipe.maker}}</p>
+                    <a href="{{recipe.link}}" target="_blank"
+                        class="buttonLink ">Read More</a>
+                </div>
+            </div>
+             <!--================================SVG Bottom====================================-->
+             <div class="custom-shape-divider-bottom-1688108563">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!--==============================================Diet Based on Weight======================================================-->
+    <div class="row dietplan">
+        <div class="inputdiet-head text-center mb-5">
+            Hello
+        </div>
+        <div class="inputdiet-body mt-2">
+            <div class="mt-2">
+                <label for="weight" class="mb-2 ">Enter your weight:</label>
+                <input class="form-control mb-3" type="number"
+                    [(ngModel)]="weight"
+                    placeholder="Weight in Kg">
+            </div>
+
+            <div class="text-center mt-2 fs-5">
+                <button mat-raised-button (click)="youtDiet()"
+                    id="diet-btn">See Your Diet</button>
+            </div>
+        </div>
+    </div>
+    
+    <!--============================================== WeightGAin=======================================================-->
+
+    <div class="row gain-weight" *ngIf="var_weightgain">
+        <div class="col-12">
+             <!--================================SVG Top====================================-->
+             <div class="custom-shape-divider-top-1688108248">
+                <svg data-name="Layer 1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+             </div>
+            <h1 class="text-center mb-5">Your weight is {{this.weight}} kg. So the diet plan is </h1>
+            <div class=" table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Meal/Day</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                            <th>Sunday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of weightgain">
+                            <td>{{item.meal}}</td>
+                            <td>{{item.monday}}</td>
+                            <td>{{item.tuesday}}</td>
+                            <td>{{item.wednesday}}</td>
+                            <td>{{item.thursday}}</td>
+                            <td>{{item.friday}}</td>
+                            <td>{{item.saturday}}</td>
+                            <td>{{item.sunday}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <!--==============================================Weight Loss======================================================-->
+
+    <div class="row Loss-weight" *ngIf="var_weightLoss">
+        <div class="col-12">
+            <h1 class="text-center mb-5">Your weight is {{this.weight}} kg. So the diet plan is</h1>
+            <div class=" table-responsive">
+                <table class="table ">
+                    <thead>
+                        <tr>
+                            <th>Meal/Day</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                            <th>Sunday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of weightloss">
+                            <td>{{item.meal}}</td>
+                            <td>{{item.monday}}</td>
+                            <td>{{item.tuesday}}</td>
+                            <td>{{item.wednesday}}</td>
+                            <td>{{item.thursday}}</td>
+                            <td>{{item.friday}}</td>
+                            <td>{{item.saturday}}</td>
+                            <td>{{item.sunday}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+</div>
